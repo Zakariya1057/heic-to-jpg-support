@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help with HEIC to JPG, the private, on-device image converter for iPhone, iPad and Mac.">
+  <meta name="theme-color" content="#c24705">
+  <title>HEIC to JPG — Support</title>
+  <link rel="icon" type="image/png" href="/assets/app-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="HEIC to JPG support home"><img src="/assets/app-icon.png" width="44" height="44" alt=""><span>HEIC to JPG</span></a>
+    <nav aria-label="Main navigation"><a href="/" aria-current="page">Support</a><a href="/privacy">Privacy</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <div class="eyebrow">iPhone · iPad · Mac</div>
+      <h1>Your photos.<br>Ready to share.</h1>
+      <p class="intro">A little help with HEIC to JPG. Convert your HEIC photos into JPEGs right on your device, with your originals kept intact.</p>
+      <a class="button" href="#help">Find an answer <span aria-hidden="true">↓</span></a>
+      <p class="note">This is the support website for the native app. Photos are converted inside the app, never on this website.</p>
+    </section>
+    <section class="steps" aria-label="How conversion works">
+      <article><span class="step">1</span><h2>Choose your photos</h2><p>Use Photos or Files on iPhone and iPad. On Mac, choose files or drop them into the app. Conversion starts automatically.</p></article>
+      <article><span class="step">2</span><h2>Choose where to save</h2><p>On iPhone and iPad, choose Photos or Files. On Mac, choose a destination folder. Completed results appear after saving succeeds.</p></article>
+      <article><span class="step">3</span><h2>Open or share</h2><p>Use a result’s three-dot menu to open or share it. On Mac, Show in Finder reveals the saved file. Your originals stay unchanged.</p></article>
+    </section>
+    <section id="help" class="section">
+      <div class="section-heading"><div class="eyebrow">Common questions</div><h2>A clear next step.</h2></div>
+      <div class="faq">
+        <details><summary>Why does the app say my photo isn’t HEIC?</summary><p>The app checks the image’s actual format. The Photos picker can also show JPEGs and PNGs, which this HEIC converter cannot convert. Choose an original HEIC or HEIF photo; changing a filename to .heic does not change its format. Unsupported or damaged images cannot be fixed by retrying.</p></details>
+        <details><summary>Where did my converted image go?</summary><p>On iPhone or iPad, it goes to the Photos library or Files destination you chose. On Mac, it goes into your chosen folder; use Show in Finder to find it. Output files use the .jpeg extension. Mac export adds a number if the name is already taken rather than overwriting a file.</p></details>
+        <details><summary>Why does saving to Photos need permission?</summary><p>Saving a new image needs permission to add to Photos. The app asks for add-only access, not permission to browse your entire library. If access is denied or restricted, choose Save to Files in the error message. You can also review the permission in device Settings.</p></details>
+        <details><summary>What happens if I cancel?</summary><p>Cancelling a save choice or destination dialog discards that new unsaved conversion and its private temporary copies. Previously saved images stay where you saved them. Cancelling conversion stops at a safe boundary; unfinished queued work can be retried.</p></details>
+        <details><summary>Does it work without the internet?</summary><p>Conversion runs on your device. If an original is stored only in iCloud or another file provider, the system may first need to download it. Saving to a cloud destination or using a sharing service can also need a connection.</p></details>
+        <details><summary>Are my location and camera details kept?</summary><p>Conversion strips camera and location metadata while preserving orientation and image dimensions. JPEG is a lossy format, encoded at 90% quality. The app converts the primary still image; depth, animation, Live Photo video and HDR gain maps are not included.</p></details>
+        <details><summary>Is there a batch or file-size limit?</summary><p>A batch holds up to 50 images, with a 50 MiB limit per source and 200 MiB total source data. Decoded images are limited to 100 megapixels. Remove failed inputs or clear the queue to make room. Large images can take longer to convert.</p></details>
+        <details><summary>A conversion failed. What should I try?</summary><p>Use Retry unfinished photos for queued work or a potentially temporary conversion failure. For an unsupported, damaged or over-limit image, choose a valid original instead. Check that you have storage space, that cloud originals are downloaded and that your save destination is writable.</p></details>
+      </div>
+    </section>
+    <section class="contact section" aria-labelledby="contact-title">
+      <div><div class="eyebrow">Still need a hand?</div><h2 id="contact-title">Tell us what happened.</h2><p>Include your device, operating-system version and the error message. A few steps to reproduce the issue are helpful.</p><p class="note">Support requests on GitHub are public. Do not post photos, personal information, private file paths or sensitive screenshots.</p></div>
+      <a class="button" href="https://github.com/Zakariya1057/heic-to-jpg-support/issues/new">Contact support <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="wrap"><p>HEIC to JPG · By Zakariya</p><a href="/privacy">Privacy policy</a></footer>
+</body>
+</html>
