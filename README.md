@@ -37,3 +37,12 @@ preview infrastructure, not part of the site or the app.
 
 Review policy accuracy when app behavior, hosting or support processes change.
 Never ask users to post private photos or personal information in public issues.
+
+## MOV to MP4 pages
+
+The independent MOV app's support and policy pages are `mov-to-mp4/index.html`
+and `mov-to-mp4/privacy.html` (policy effective 18 October 2026). Intended deployed
+URLs are [MOV support](https://heic-to-jpg-support.vercel.app/mov-to-mp4) and
+[MOV privacy](https://heic-to-jpg-support.vercel.app/mov-to-mp4/privacy). Verify both
+live routes after deployment; their presence in source does not establish publishing.
+These pages reuse the static styling and make no app-upload/backend promise.
