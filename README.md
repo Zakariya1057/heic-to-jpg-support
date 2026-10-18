@@ -46,3 +46,19 @@ URLs are [MOV support](https://heic-to-jpg-support.vercel.app/mov-to-mp4) and
 [MOV privacy](https://heic-to-jpg-support.vercel.app/mov-to-mp4/privacy). Verify both
 live routes after deployment; their presence in source does not establish publishing.
 These pages reuse the static styling and make no app-upload/backend promise.
+
+## PDF to Word pages
+
+The independent PDF app's support and privacy sources are `pdf-to-word/index.html`
+and `pdf-to-word/privacy.html`, with policy effective 18 October 2026. The original
+native icon is copied into `assets/pdf-app-icon.png`. Intended routes:
+[PDF support](https://heic-to-jpg-support.vercel.app/pdf-to-word) and
+[PDF privacy](https://heic-to-jpg-support.vercel.app/pdf-to-word/privacy).
+
+These pages describe local PDF/OCR conversion to editable DOCX, actual formatting
+limits, Files-only access and best-effort temporary cleanup. They reuse existing
+static CSS and security headers; no scripts, forms, dependencies or app-upload
+service were added. Source preparation does not establish deployment, App Store
+availability or published App Privacy answers. Verify both live routes and native
+app footer navigation after deployment. Never request private document attachments
+in public GitHub issues. Do not alter HEIC/MOV policy facts as part of PDF updates.

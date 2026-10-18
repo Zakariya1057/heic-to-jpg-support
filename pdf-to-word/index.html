@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help with local PDF to Word conversion, editable DOCX documents and on-device text recognition on iPhone, iPad and Mac.">
+  <title>PDF to Word — Support</title>
+  <link rel="icon" href="/assets/pdf-app-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/pdf-to-word"><img src="/assets/pdf-app-icon.png" width="44" height="44" alt=""><span>PDF to Word</span></a>
+    <nav aria-label="Main navigation"><a href="/pdf-to-word" aria-current="page">Support</a><a href="/pdf-to-word/privacy">Privacy</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <div class="eyebrow">iPhone · iPad · Mac</div>
+      <h1>Your PDF text.<br>Ready to edit.</h1>
+      <p class="intro">Turn PDFs into editable Word documents on your device. Choose your files, let conversion run, then save a DOCX. Your original stays untouched.</p>
+      <a class="button" href="#help">Find an answer ↓</a>
+      <p class="note">Conversion happens inside the native app. This website does not accept documents or convert files.</p>
+    </section>
+    <section class="steps" aria-label="How conversion works">
+      <article><span class="step">1</span><h2>Choose your PDFs</h2><p>Use Files on iPhone or iPad, or choose/drop PDF files on Mac. Conversion starts automatically.</p></article>
+      <article><span class="step">2</span><h2>Choose where to save</h2><p>Save through Files on iPhone or iPad, or choose a folder on Mac. Wait for the Converted confirmation.</p></article>
+      <article><span class="step">3</span><h2>Review and edit</h2><p>Open the DOCX in a compatible editor. Review text, tables and reading order against your original PDF.</p></article>
+    </section>
+    <section id="help" class="section">
+      <div class="eyebrow">Common questions</div><h2>A clear next step.</h2>
+      <div class="faq">
+        <details><summary>Which PDFs can I convert?</summary><p>Choose a readable, unencrypted PDF that allows copying. Each file can contain up to 100 pages and be up to 100 MiB. The queue holds up to 10 files and 200 MiB of original source data. Additional page, recognition and output limits protect device resources. Damaged, protected or oversized documents may be rejected; renaming another file to .pdf does not turn it into a PDF.</p></details>
+        <details><summary>Is the Word document really editable?</summary><p>The app creates DOCX text paragraphs and recognized table cells, rather than putting page screenshots into a Word wrapper. Open the output in an editor that supports DOCX. The app does not include a document editor.</p></details>
+        <details><summary>Will it look exactly like my PDF?</summary><p>PDF conversion reconstructs document structure and can change formatting. Fonts, line wrapping, page breaks, columns, merged cells, tables and reading order may differ. Detected raster illustrations can be included as image crops, not editable vector drawings. Complex artwork, forms, annotations, footnotes and equations may be incomplete or omitted. Keep your original and review the result before relying on it.</p></details>
+        <details><summary>Can it recognize scanned text?</summary><p>Text recognition runs on your device. Accuracy depends on language, scan quality, rotation and document structure; mistakes and omissions are possible. Structured paragraph, list and table recognition is used on iOS and macOS 26 or later. Older supported systems use a simpler native text and line-recognition path with less capable layout recovery. Review names, numbers and table cells carefully.</p></details>
+        <details><summary>Where is my converted document?</summary><p>It is in your chosen Files location or Mac folder with a .docx extension. Use the completed result’s three-dot menu to open or share it; Show in Finder reveals the actual saved file on Mac. Existing files are not overwritten by Mac folder saving.</p></details>
+        <details><summary>Does it work offline?</summary><p>Conversion and recognition use native on-device frameworks without a conversion server, app account or remote SDK. iCloud or another Files provider may first need to download the original. Saving to cloud storage or explicitly sharing can require internet access.</p></details>
+        <details><summary>Why does the app ask me to choose a file or folder?</summary><p>The native system picker grants access to the documents and destinations you select. No Photos permission or broad photo-library access is needed.</p></details>
+        <details><summary>What happens if I cancel?</summary><p>Cancellation stops work cooperatively; a native recognition call already in progress can take a moment to finish. Cancelling a destination discards new unsaved results while preserving earlier saved files. Temporary cleanup is best effort, not guaranteed secure deletion.</p></details>
+        <details><summary>Why did conversion fail?</summary><p>Check that the PDF opens, permits copying, is not encrypted and has finished downloading. Keep enough free storage for a local input copy and output. Try a clearer scan or fewer pages if recognition or resource limits are the problem. Some documents cannot be converted accurately; repeatedly retrying a damaged or unsupported original will not repair it.</p></details>
+      </div>
+    </section>
+    <section class="contact section">
+      <div><div class="eyebrow">Still need a hand?</div><h2>Tell us what happened.</h2><p>Include PDF to Word, your device, operating-system version and the error message. GitHub issues are public: do not post PDFs, document contents, private paths or personal information.</p></div>
+      <a class="button" href="https://github.com/Zakariya1057/heic-to-jpg-support/issues/new">Contact support ↗</a>
+    </section>
+  </main>
+  <footer class="wrap"><p>PDF to Word · By Zakariya</p><a href="/pdf-to-word/privacy">Privacy policy</a></footer>
+</body>
+</html>
