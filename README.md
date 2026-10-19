@@ -50,7 +50,7 @@ These pages reuse the static styling and make no app-upload/backend promise.
 ## PDF to Word pages
 
 The independent PDF app's support and privacy sources are `pdf-to-word/index.html`
-and `pdf-to-word/privacy.html`, with policy effective 18 October 2026. The original
+and `pdf-to-word/privacy.html`, with policy effective 19 October 2026. The original
 native icon is copied into `assets/pdf-app-icon.png`. Intended routes:
 [PDF support](https://heic-to-jpg-support.vercel.app/pdf-to-word) and
 [PDF privacy](https://heic-to-jpg-support.vercel.app/pdf-to-word/privacy).
@@ -62,3 +62,5 @@ service were added. Source preparation does not establish deployment, App Store
 availability or published App Privacy answers. Verify both live routes and native
 app footer navigation after deployment. Never request private document attachments
 in public GitHub issues. Do not alter HEIC/MOV policy facts as part of PDF updates.
+The PDF support page publishes the authorized email `zakaria2011@live.no` and
+keeps GitHub issues as an optional public route; its policy discloses both channels.
